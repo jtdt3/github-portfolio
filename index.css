@@ -292,3 +292,25 @@ a:focus {
     border-radius: 0.5rem;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
+
+.about__content {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Space between the text and the image */
+    gap: var(--gutter-medium); /* Add space between the text and the photo */
+}
+
+.about__text {
+    flex: 1; /* Allow the text container to take available space */
+}
+
+.about__photo-container {
+    flex: 0 0 auto; /* Prevent the photo container from growing */
+    width: 40%; /* You can adjust the width as necessary */
+}
+
+.about__photo {
+    width: 100%; /* Ensure the photo fills the container */
+    border-radius: 50%; /* Make the photo circular, if desired */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
