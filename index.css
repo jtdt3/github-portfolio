@@ -270,3 +270,25 @@ a:focus {
 }
 
 
+.work__box {
+    display: flex;
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Space between text and image */
+    margin-bottom: var(--gutter-medium); /* Adjust space between work items */
+}
+
+.work__text {
+    flex: 1; /* Allow the text container to take available space */
+    margin-right: var(--gutter-medium); /* Space between text and image */
+}
+
+.work__image-box {
+    flex: 0 0 auto; /* Prevent the image box from growing */
+    width: 40%; /* You can adjust the width as necessary */
+}
+
+.work__image {
+    width: 100%; /* Ensure the image fills the container */
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
