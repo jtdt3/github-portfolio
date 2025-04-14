@@ -269,7 +269,4 @@ a:focus {
     transform: scale(1.1);
 }
 
-.footer__github-buttons iframe {
-    height: 2.5rem;
-    width: 84px;
-}
+
